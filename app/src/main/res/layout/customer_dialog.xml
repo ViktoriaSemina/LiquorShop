@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+
+    <TextView
+        android:id="@+id/customer_dialog_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="Edit First Name"
+        android:textColor="@color/colorOrange"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        />
+
+    <EditText
+        android:id="@+id/user_first_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Enter your first name"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textColor="@color/colorBlueDark"
+        android:lines="2"
+        />
+
+    <TextView
+        android:id="@+id/customer_dialog_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="Edit email"
+        android:textColor="@color/colorOrange"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        />
+
+    <EditText
+        android:id="@+id/user_email_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Enter your email"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textColor="@color/colorBlueDark"
+        android:lines="2"
+        />
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    tools:context=".ViewsClient.RegisterActivity">
+
+    <!-- Login progress -->
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/lastnameCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last name"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"/>
+
+        <EditText
+            android:id="@+id/phoneCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"/>
+
+        <EditText
+            android:id="@+id/emailCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"/>
+
+
+        <EditText
+            android:id="@+id/passwordCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"/>
+
+        <EditText
+            android:id="@+id/birthdateCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of birth"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSignUpFromSignUp"
+        android:text="Sign Up"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClickRegisterNewUser"
+        android:background="@color/colorOrange"
+        />
+
+</RelativeLayout>

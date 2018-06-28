@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_category"
+        android:title="Add categories"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/nav_customers"
+        android:orderInCategory="100"
+        android:title="Manage users"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/nav_brand"
+        android:title="Add brands"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/nav_product"
+        android:title="Manage products"
+        app:showAsAction="never"/>
+
+</menu>

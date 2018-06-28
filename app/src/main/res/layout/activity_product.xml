@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewsAdmin.ProductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edTxtProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Product name"
+            />
+
+        <EditText
+            android:id="@+id/edTxtProductImageUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Insert the link" />
+
+        <EditText
+            android:id="@+id/edTxtProductWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Weight" />
+
+        <EditText
+            android:id="@+id/edTxtProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Price" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select category"
+            android:textSize="18sp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select brand"
+            android:textSize="18sp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_brand"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btnSaveProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickSaveProduct"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnMoveToHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickMoveToHomeScreen"
+            android:text="Go to catalog" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

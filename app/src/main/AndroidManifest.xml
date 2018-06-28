@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viktoriasemina.liquorshop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ViewsClient.AgeCheckerActivity" />
+        <activity android:name=".ViewsClient.BaseDrawerActivity" />
+        <activity android:name=".ViewsClient.ProductPageActivity" />
+        <activity
+            android:name=".ViewsClient.CartActivity"
+            android:label="Cart" />
+        <activity android:name=".ViewsClient.LoginActivity" />
+        <activity android:name=".ViewsClient.RegisterActivity" />
+        <activity android:name=".ViewsClient.SignInActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewsClient.ProfileActivity" />
+        <activity
+            android:name=".ViewsClient.DeliveryActivity"
+            android:label="Checkout" />
+        <activity android:name=".ViewsAdmin.UserListActivity" />
+        <activity android:name=".ViewsAdmin.CategoryActivity">
+
+        </activity>
+        <activity android:name=".ViewsAdmin.ProductActivity" />
+        <activity android:name=".ViewsAdmin.BrandActivity"></activity>
+        <provider
+            android:authorities="com.example.viktoriasemina.liquorshop.Database.AppContentProvider"
+            android:name="com.example.viktoriasemina.liquorshop.Database.AppContentProvider"
+            android:exported="false"/>
+    </application>
+
+</manifest>

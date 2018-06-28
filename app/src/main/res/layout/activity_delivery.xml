@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewsClient.DeliveryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="8dp">
+
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Choose delivery method"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Door to door delivery" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pick up at the store" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSetDeliveryType"
+        android:text="Continue"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlueDark"
+        />
+
+
+</RelativeLayout>

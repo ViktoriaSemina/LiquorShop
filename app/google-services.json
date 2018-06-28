@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1012510315673",
+    "firebase_url": "https://androidliquorshop.firebaseio.com",
+    "project_id": "androidliquorshop",
+    "storage_bucket": "androidliquorshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012510315673:android:e48ae291e558a407",
+        "android_client_info": {
+          "package_name": "com.example.viktoriasemina.liquorshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012510315673-2df4h2it9j6msrrtrj7jr952gdf7oqk6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.viktoriasemina.liquorshop",
+            "certificate_hash": "59d78f9f8e8a00e7f4c81056b8ff04d19f578637"
+          }
+        },
+        {
+          "client_id": "1012510315673-5hd2dokpeqcfbgaqbt9iispuvenipda8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1012510315673-5hd2dokpeqcfbgaqbt9iispuvenipda8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC35Q5PIYOXqTkpRVRXD4DJk2hrXttPJRQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012510315673-5hd2dokpeqcfbgaqbt9iispuvenipda8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

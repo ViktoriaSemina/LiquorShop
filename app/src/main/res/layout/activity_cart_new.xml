@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    android:background="#e1e1e1"
+    tools:context=".ViewsClient.CartActivity">
+    <!--tools:showIn="@layout/activity_main"-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cart_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:divider="#f55"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/edTxtInsertPromoCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insert promo code here"/>
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total price: "
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/totalAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnPlaceOrder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlueDark"
+            android:textColor="@color/colorWhite"
+            android:text="Place an order"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
